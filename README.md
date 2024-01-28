@@ -1,5 +1,5 @@
 # S2SNet
-S2SNet ‐ Sequence to Star Network
+S2SNet ‐ Sequence to Star Network software
 
 Sequence to Star Network (S2SNet) is a free Python application using wxPython for the GUI and Graphviz as plotting back-end. S2SNet helps you to transform the character sequences/strings into Star Network (SN) topological indices (TIs) and visualize the resulted graphs. These indices are the input data for the statistical analysis. Some examples of sequences are protein amino acid chains, DNA/RNA strands, mass spectra or electroencephalograms (EEG), social or legal sciences texts or code, etc.
 
