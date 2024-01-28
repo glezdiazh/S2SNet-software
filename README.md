@@ -3,6 +3,22 @@ S2SNet ‐ Sequence to Star Network
 
 Sequence to Star Network (S2SNet) is a free Python application using wxPython for the GUI and Graphviz as plotting back-end. S2SNet helps you to transform the character sequences/strings into Star Network (SN) topological indices (TIs) and visualize the resulted graphs. These indices are the input data for the statistical analysis. Some examples of sequences are protein amino acid chains, DNA/RNA strands, mass spectra or electroencephalograms (EEG).
 
+# Algorithm origin:
+
+MINDOES is based on MARCH-INSIDE: Markov Chain Invariants for Networks Simulation and Design MARCH-INSIDE (MI), a well-known method introduced by Prof. Humbert G Díaz (Gonzaléz-Díaz et al.) as early as 2002 for the calculation of Markov Invariants (Moments, Shanon entropies, Mean Markov values) of molecular graphs and complext netxorks using a Markov chain stchastic approach. MINODES extend MI algorithms ideas in order to calculate MI node centralities of complex networks. Some of these MI node centralities are Markov kth-node degrees, Markov kth-node clossenes, etc.; which are kth higher order analogues of classic node centralities now re-calculated and extended to higher order analogues using a MI approach. MINODES is able to read multiple files of complex networks (protein interaction networks, metabolic networks, social networks, etc.) in .mat, .net, and other formats and return MI node centralities of all nodes in the network. In case you want to develop new collaborations, applications, etc. related to MI algorith please do not hesitate to contact us at Linkedin: Prof. Humbert g. Díaz https://www.linkedin.com/in/humbertgdiaz/ and/or Prof. C.R. Munteanu https://www.linkedin.com/in/muntisa/.
+
+# S2SNET Related Algorithms:
+
+MARCH-INSIDE (MI) algorithm is the original algorithm https://github.com/glezdiazh/MARCH-INSIDE on which MINODES is based. Other algorithms based also on MI and then related to MINDOES somehow are: Sequence to Stars Networks (S2SNET) by C.R. Munteanu and González-Díaz H. https://github.com/muntisa/S2SNet); R-Markov Topological Indices (RMARKOVTI) by C.R. Munteanu https://github.com/muntisa/RMarkovTI, S2SNET Phyton (PyS2SNET) by C.R. Munteanu https://github.com/muntisa/pyS2SNet, etc.
+
+# S2SNET Main authors contributions:
+
+C.R. munteanu (algorithm and software design, software programing, AI/ML applications, main author of papers, https://github.com/muntisa/).
+
+H. Gónzalez-Díaz (algorithm and software design, AI/ML applications, main author of papers, https://github.com/glezdiazh),
+
+A. Duardo-Sánches (assistance with intellectual proprty issues and co-author of papers for social and legal networks analysis, https://github.com/aliuskaduardo)
+
 # What S2SNet can do
 
 * Transform 1-character sequences in topological Star Networks indices
